@@ -87,7 +87,7 @@ function App() {
   const [pokemon, pokemonSet] = React.useState(null);
   const [selectedPokemon, selectedPokemonSet] = React.useState(null);
   React.useEffect(() => {
-    fetch("/react-lesson/pokemon.json")
+    fetch("http://localhost:3000/react-lesson/pokemon.json")
       .then((resp) => resp.json())
       .then((data) => pokemonSet(data));
   }, []);
