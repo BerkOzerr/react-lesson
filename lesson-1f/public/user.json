@@ -1,0 +1,7 @@
+{
+  "name": "berk",
+  "roles": {
+    "admin": true,
+    "user": true
+  }
+}
